@@ -1,3 +1,4 @@
+package OOP_Java.Toy;
 public class Toy {
     private int id;
     private String name;
@@ -21,6 +22,10 @@ public class Toy {
 
     public int getQuantity(){
         return quantity;
+    }
+
+    public void setQuantity(int quantity){
+        this.quantity=quantity;
     }
 
     public int getWeight(){
