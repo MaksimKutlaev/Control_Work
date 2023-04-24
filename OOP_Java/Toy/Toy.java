@@ -1,5 +1,5 @@
 package OOP_Java.Toy;
-public class Toy {
+public abstract class Toy {
     private int id;
     private String name;
     private int quantity;
@@ -39,4 +39,6 @@ public class Toy {
     public void decrementQuantity(){
         quantity--;
     }
+
+    public abstract String getDescription();
 }
